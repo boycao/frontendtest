@@ -11,3 +11,170 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.block-app {
+
+  padding-top: 5em;
+}
+
+.block-app form {
+  position: fixed;
+  top: 2em;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.block-summary {
+  width: 50vw;
+  margin: auto;
+  border: 1px solid lightgrey;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.block-summary h2 {
+  text-align: center;
+}
+
+.block-summary-table tr td:first-child {
+  text-align: right;
+}
+
+.block-summary-table tr:nth-child(even) {
+  /* background-color: #f2f2f2 */
+}
+
+.block-summary-table td {
+  padding: 1em;
+  width: 100vw;
+}
+
+.transcation-details {
+  max-width: 33vw;
+  word-break: break-all;
+  padding: 1em;
+}
+
+footer {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 100vw;
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+  display: none;
+}
+
+.transcation-details ul {
+  list-style: none;
+}
+
+.big {
+  width: 40em !important;
+}
+
+.landing-msg {
+  text-align: center;
+  padding-top: 5em;
+  color: #313131;
+}
+
+.btc-badge {
+  padding: 2px 5px;
+  font-size: 19px;
+  margin-right: 15px !important;
+  font-weight: 400;
+}
+
+.collapser {
+  width: 50vw;
+  color: white;
+  background-color: grey !important;
+  margin: auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.block-txns {
+  margin-top: 2em;
+}
+
+.block-txns-table {
+  width: 90vw;
+  margin: auto;
+}
+
+.block-txns-table tr {
+  border-bottom: 1px solid lightslategrey;
+  padding: 1em 1em;
+}
+
+.search-spinner {
+  margin: 0px 10px;
+}
+
+.sub-btc-badge {
+  color: #28a745;
+  margin-right: 1em;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.small-text {
+  font-size: 12px;
+}
+
+.center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.banner-img {
+  opacity: 0.4;
+  left: 35%;
+  z-index: -1;
+}
+
+.rotate {
+  -webkit-animation: rotation 200s infinite linear;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.card {
+  padding: 1em;
+}
+
+li b {
+  margin-right: 5px;
+}
+
+.arrow-head {
+  position: relative;
+  top: 50px;
+  left: 104%;
+  width: 1em;
+  height: 1em;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  transform: rotate(45deg);
+}
